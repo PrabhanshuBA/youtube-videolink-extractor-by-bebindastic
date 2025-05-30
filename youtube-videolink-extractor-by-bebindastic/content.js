@@ -1,0 +1,1 @@
+console.log("YouTube Link Extractor content script loaded");

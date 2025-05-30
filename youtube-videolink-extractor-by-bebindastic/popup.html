@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { font-family: sans-serif; padding: 10px; width: 250px; }
+    button { margin-top: 10px; width: 100%; }
+    label { display: block; margin-top: 10px; }
+    textarea { width: 100%; height: 100px; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h3>YouTube VideoLink Extractor by Bebindastic</h3>
+
+  <label>
+    <input type="checkbox" id="includePlaylists"> Include Playlist Links
+  </label>
+
+  <button id="extract">Extract Links</button>
+  <textarea id="result" readonly placeholder="Links will appear here..."></textarea>
+
+  <script src="popup.js"></script>
+</body>
+</html>
